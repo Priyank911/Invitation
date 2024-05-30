@@ -1,0 +1,80 @@
+body {
+    background-color: #800000;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.invitation-card {
+    background: url('bg.png') no-repeat center center;
+    background-size: cover;
+    border: 2px solid #FFD700;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.ganesha-image {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.date-time, .schedule, .message {
+    margin: 20px 0;
+}
+.date-time{
+    margin-top: 300px;
+}
+/* .schedule{
+    margin-top: 200px; 
+} */
+
+.date-time p, .schedule p, .message p {
+    color: #fff;
+}
+.date-time p {
+    font-size: 1.2em; 
+    font-weight: bold; 
+}
+
+
+button.map-button {
+    background-color: #FFD700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    color: #800000;
+    font-weight: bold;
+}
+
+button.map-button:hover {
+    background-color: #FFC107;
+}
+
+footer {
+    background-color: #FFD700;
+    color: #800000;
+    padding: 5px 0;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
