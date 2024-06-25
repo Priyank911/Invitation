@@ -2,15 +2,7 @@
 
 This project is a simple, responsive website for inviting guests to a Bhumi Pujan ceremony. The design includes a background image, an invitation card with the event details, and a footer with developer credits and social media icons.
 
-## Table of Contents
-
-- [Demo](#demo)
-- [Features](#features)
-- [Installation](#installation)
-
-## Demo
-
-You can see a live demo of the invitation website [here](https://invitation-amber-psi.vercel.app/).
+<img src="https://github.com/Priyank911/Invitation/blob/main/Screenshot%202024-06-26%20000343.png" alt="Flash Screen"/>
 
 ## Features
 
